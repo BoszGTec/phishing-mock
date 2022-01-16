@@ -13,7 +13,7 @@
   ```
   หรือ (หากต้องการเผยแพร่ให้คนอื่นดู)
   ```
-  python3 start with ngrok.py
+  python3 start_with_ngrok.py
   ```
 ## การใช้บน Colab
 1. กดrun Clone Repo และ Install requirements
