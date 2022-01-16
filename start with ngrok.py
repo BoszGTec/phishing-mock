@@ -2,7 +2,7 @@ from pyngrok import ngrok
 from flask import Flask , render_template ,  request
 print("Get Your Auth_Token From : https://ngrok.com/")
 Auth=input("Your Token")
-ngrok.set_auth_token("Auth")
+ngrok.set_auth_token(Auth)
 Link=ngrok.connect("5000")
 Link
 
