@@ -1,4 +1,5 @@
-# วิธีการใช้บน Colab
+# วิธีการใช้บน Colab [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BoszGTec/phishing-mock/blob/main/gcolab/BoszGTec_phishing_mock.ipynb)
+
 1. กดrun Clone Repo และ Install requirements
 2. ถ้าต้องการเผยแพร่ให้คนอื่นดู กดrun Use With Ngrok (ต้องTokenก่อน หาได้จาก : https://ngrok.com/ )
 3. กดrun Start เพื่อเริ่มการทำงาน
