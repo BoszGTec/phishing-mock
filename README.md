@@ -33,4 +33,4 @@
 + สังเกตจากลิงค์
 
 รูปพื้นหลัง จาก : [Microsoft Edge](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wtd6?ver=364f) <br>
-by [bossgeeg123456](mailto:bossgeeg123456@gmail.com)
+by [©bossgeeg123456](mailto:bossgeeg123456@gmail.com)
