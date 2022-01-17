@@ -1,6 +1,8 @@
 # phishing-mock
 จำลองการโจรกรรมข้อมูลแบบ Phishing <br>
 ![image](https://user-images.githubusercontent.com/95701554/149658385-dbdf95e6-d3d3-4552-9fa5-dc41ab66072c.png)
+[All screenshots](https://github.com/BoszGTec/phishing-mock/blob/main/file/Screenshot.md)
+
 ## วิธีการใช้
 1. ทำการติดตั้งไลบารี่ก่อนโดยใช้คำสั่ง
  ```
