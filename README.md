@@ -1,7 +1,5 @@
 # phishing-mock
 จำลองการโจรกรรมข้อมูลแบบ Phishing <br>
-เวอร์ชั่นออนไลน์ : <br>
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BoszGTec/phishing-mock/blob/main/gcolab/BoszGTec_phishing_mock.ipynb)
 ![image](https://user-images.githubusercontent.com/95701554/149658385-dbdf95e6-d3d3-4552-9fa5-dc41ab66072c.png)
 ## วิธีการใช้
 1. ทำการติดตั้งไลบารี่ก่อนโดยใช้คำสั่ง
