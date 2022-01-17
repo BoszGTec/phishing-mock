@@ -7,3 +7,5 @@
   + ตัวอย่าง `` <input type="password" name="password"> ``
 + ต้องมีปุ่ม submit
   + ตัวอย่าง `` <button type="submit">Submit</button> ``
+
+[Screenshots](https://github.com/BoszGTec/phishing-mock/blob/main/file/Screenshot.md)
