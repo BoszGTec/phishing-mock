@@ -1,6 +1,4 @@
 # phishing-mock
-[Th](https://github.com/BoszGTec/phishing-mock/blob/main/README.md) | [En](https://github.com/BoszGTec/phishing-mock/blob/main/README_En.md)
-<br>
 จำลองการโจรกรรมข้อมูลแบบ Phishing <br>
 ![image](https://user-images.githubusercontent.com/95701554/149658385-dbdf95e6-d3d3-4552-9fa5-dc41ab66072c.png)
 [All screenshots](https://github.com/BoszGTec/phishing-mock/blob/main/file/Screenshot.md)
