@@ -29,13 +29,6 @@ New!! : add facebook login page style.
 5. Download result : run  Download csv
 * results will be .csv file name "Email+Password.csv"
 
-## How To Protect 
-+ Use extensions on browser.
-  + recommended ↓↓
-  + [<img height="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Windows_Defender_logo.svg/800px-Windows_Defender_logo.svg.png" />Microsoft Defender Browser Protection](https://chrome.google.com/webstore/detail/microsoft-defender-browse/bkbeeeffjjeopflfhgeknacdieedcoml)
-  + [<img height="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/AdGuard.svg/800px-AdGuard.svg.png" />AdGuard AdBlocker](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg)
-  + [<img height="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Malwarebytes_Logo_%282016%29.svg/220px-Malwarebytes_Logo_%282016%29.svg.png" />Malwarebytes Browser Guard](https://chrome.google.com/webstore/detail/malwarebytes-browser-guar/ihcjicgdanjaechkgeegckofjjedodee)
-+ Notice from the link.
 
 background from : [Microsoft Edge](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wtd6?ver=364f) <br>
 by [©bossgeeg123456](mailto:bossgeeg123456@gmail.com)
