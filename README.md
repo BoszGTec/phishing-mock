@@ -1,10 +1,14 @@
 # phishing-mock
 จำลองการโจรกรรมข้อมูลแบบ Phishing <br>
 ![image](https://user-images.githubusercontent.com/95701554/149658385-dbdf95e6-d3d3-4552-9fa5-dc41ab66072c.png)
+Sample page : [Link](https://tbcsos.github.io/example-phising_mock-page/index/)
+
 [All screenshots](https://github.com/BoszGTec/phishing-mock/blob/main/file/Screenshot.md)
+
 <br><br>
 New!! : เพิ่มหน้าล็อคอินแบบเฟสบุ๊ค
 ![image](https://user-images.githubusercontent.com/95701554/149782535-0861fa1a-b718-43f6-9f7b-54665d3ee912.png)
+Sample page : [Link](https://tbcsos.github.io/example-phising_mock-page/face/)
 <br><br>
 ## วิธีการใช้
 1. ทำการติดตั้งไลบารี่ก่อนโดยใช้คำสั่ง
