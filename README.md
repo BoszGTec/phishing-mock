@@ -16,7 +16,7 @@
  ```
  pip install -r requirements.txt
  ```
- 2. เริ่มใช้โดยคำสั้ง
+ 2. เริ่มใช้โดยใช้คำสั้ง
   ```
    python3 start.py
   ```
