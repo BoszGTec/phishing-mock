@@ -1,5 +1,6 @@
 # phishing-mock
-[Th](https://github.com/BoszGTec/phishing-mock/blob/main/README.md) | [En](https://github.com/BoszGTec/phishing-mock/blob/main/README_En.md) <br>
+![GitHub repo size](https://img.shields.io/github/repo-size/BoszGTec/phishing-mock?color=f0f0f0&logo=Github&label=Repo%20size)
+
 จำลองการโจรกรรมข้อมูลแบบ Phishing <br>
 หน้าล็อคอินแบบพื้นฐาน <br>
 ![image](https://user-images.githubusercontent.com/95701554/149658385-dbdf95e6-d3d3-4552-9fa5-dc41ab66072c.png)
