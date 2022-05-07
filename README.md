@@ -1,16 +1,19 @@
 # phishing-mock
 ![GitHub repo size](https://img.shields.io/github/repo-size/BoszGTec/phishing-mock?color=f0f0f0&logo=Github&label=Repo%20size)
 
-จำลองการโจรกรรมข้อมูลแบบ Phishing <br>
+จำลองการโจรกรรมข้อมูลแบบ Phishing <br><br>
 หน้าล็อคอินแบบพื้นฐาน <br>
 ![image](https://user-images.githubusercontent.com/95701554/149658385-dbdf95e6-d3d3-4552-9fa5-dc41ab66072c.png)
-ตัวอย่าง : [Link](https://tbcsos.github.io/example-phising_mock-page/index/)
+<!-- ตัวอย่าง : [Link](https://tbcsos.github.io/example-phising_mock-page/index/)
+
 
 [All screenshots](https://github.com/BoszGTec/phishing-mock/blob/main/file/Screenshot.md)
-<br><br>
+<br><br> 
+-->
 หน้าล็อคอินแบบเฟสบุ๊ค
 ![image](https://user-images.githubusercontent.com/95701554/149782535-0861fa1a-b718-43f6-9f7b-54665d3ee912.png)
-ตัวอย่าง : [Link](https://tbcsos.github.io/example-phising_mock-page/face/)
+<!-- ตัวอย่าง : [Link](https://tbcsos.github.io/example-phising_mock-page/face/)
+-->
 <br><br>
 ## วิธีการใช้
 1. ทำการติดตั้งไลบารี่ก่อนโดยใช้คำสั่ง
